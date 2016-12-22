@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Introduction"
+title: "Competency A"
 description: ""
 comments: false
 share: false
-
+permalink: /compa.html
 ---  

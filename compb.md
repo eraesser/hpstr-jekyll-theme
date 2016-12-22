@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Introduction"
+title: "Competency B"
 description: ""
 comments: false
 share: false
-
+permalink: /compb.html
 ---  
