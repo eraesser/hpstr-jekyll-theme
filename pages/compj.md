@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Competency B"
+title: "Competency J"
 description: ""
 comments: false
 share: false
-permalink: /compb.html
+permalink: /competency-j.html
 ---  

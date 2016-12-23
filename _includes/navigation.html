@@ -52,10 +52,21 @@
 		<li>
 			<a href="#">Competencies</a>
 			<ul class="dl-submenu">
-				<li><a href="{{ site.url }}/posts/">All Comptencies</a></li>
-				<li><a href="{{ site.url }}/tags/">All Tags</a></li>
-				<li><a href="{{ site.url }}/compa">Competency A</a></li>
-				<li><a href="{{ site.url }}/compb">Competency B</a></li>
+				<li><a href="{{ site.url }}/competency-a">Competency A</a></li>
+				<li><a href="{{ site.url }}/competency-b">Competency B</a></li>
+				<li><a href="{{ site.url }}/competency-c">Competency C</a></li>
+				<li><a href="{{ site.url }}/competency-d">Competency D</a></li>
+				<li><a href="{{ site.url }}/competency-e">Competency E</a></li>
+				<li><a href="{{ site.url }}/competency-f">Competency F</a></li>
+				<li><a href="{{ site.url }}/competency-g">Competency G</a></li>
+				<li><a href="{{ site.url }}/competency-h">Competency H</a></li>
+				<li><a href="{{ site.url }}/competency-i">Competency I</a></li>
+				<li><a href="{{ site.url }}/competency-j">Competency J</a></li>
+				<li><a href="{{ site.url }}/competency-k">Competency K</a></li>
+				<li><a href="{{ site.url }}/competency-l">Competency L</a></li>
+				<li><a href="{{ site.url }}/competency-m">Competency M</a></li>
+				<li><a href="{{ site.url }}/competency-m">Competency N</a></li>
+
 			</ul>
 		</li>
 		{% for link in site.data.navigation %}
@@ -65,6 +76,9 @@
 	        {% assign domain = site.url %}
 	    {% endif %}
 	    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+			<li>
+				<a href="{{ site.url }}/affirmation">Affirmation</a>
+			</li>
 	  {% endfor %}
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
